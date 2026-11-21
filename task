@@ -1,0 +1,37 @@
+GENERATIVE AI & AGENTIC SYSTEMS
+Departmental Use-Case Brief
+AI-Powered Academic and Administrative Assistant
+Institution	Faculty of Computers and Information, Qena University
+Department	Artificial Intelligence Department
+1. Problem Statement
+The Artificial Intelligence Department manages a broad range of academic and administrative activities, including student inquiries, course coordination, academic regulations, examination arrangements, graduation projects, and educational resources. Relevant information is often distributed across documents, spreadsheets, email messages, and multiple communication channels.
+Managing these activities manually creates repetitive work, increases response times, and makes it difficult to ensure that students and faculty members receive consistent, accurate, and up-to-date information. Faculty members also spend valuable time on routine tasks that could be streamlined, allowing more time for teaching, research, and student mentoring.
+2. Proposed Solution and Why Generative AI Fits
+The proposed use case is an AI-powered academic and administrative assistant that combines Generative AI, Retrieval-Augmented Generation (RAG), and controlled Agentic AI capabilities. It would provide a centralized interface for students and authorized staff to search approved departmental information, receive context-grounded answers, and initiate selected workflows.
+• Academic support: Answer common student questions using approved course materials, departmental announcements, and academic regulations.
+• Knowledge retrieval: Use RAG to retrieve relevant passages from institutional documents and generate responses grounded in those sources, with references where available.
+• Teaching assistance: Help faculty members draft lecture summaries, assignment descriptions, question banks, and other learning resources for review.
+• Graduation project support: Make approved project guidelines and milestones easier to find and help organize project documentation and progress information.
+• Workflow assistance: Use agents to coordinate bounded, multi-step tasks, such as collecting required information, checking request completeness, and routing a request to an authorized staff member.
+Generative AI is suitable because it can interpret natural-language questions and produce useful summaries and drafts. RAG helps constrain answers to approved institutional knowledge. Agentic capabilities can coordinate tasks across authorized systems; however, actions that affect grades, examinations, student records, or official decisions must remain subject to human approval.
+3. Potential Risks and Mitigation Strategies
+Potential Risk	Mitigation Strategy
+Inaccurate or fabricated responses (hallucinations)	Use approved knowledge sources, retrieval-grounded responses, source references, testing, and human review for consequential information.
+Data leakage or unauthorized disclosure	Apply data classification, encryption, access controls, secure deployment, and approved data-processing arrangements.
+Bias or inconsistent outputs	Evaluate the system across representative cases, monitor performance, and provide a process for reporting and correcting issues.
+Unauthorized agent actions	Apply role-based permissions, restrict tools and actions, maintain audit logs, and require human approval for sensitive operations.
+Over-reliance on AI-generated content	Define acceptable-use rules and make clear that AI outputs are assistance, not authoritative academic or administrative decisions.
+4. Data Governance: Information That Must Not Leave the Institution
+The system must not transmit confidential or personally identifiable institutional information to unapproved external AI services. At a minimum, the following data categories must remain within institutionally approved and protected environments:
+• Personally identifiable student information, including national identification numbers, addresses, telephone numbers, and private contact details.
+• Student grades, examination papers and results, academic evaluations, attendance records, and disciplinary records.
+• Confidential faculty and staff personnel records, employment information, and private contact details.
+• Internal documents classified as confidential or restricted, including non-public administrative correspondence and official records.
+• Unpublished research data, sensitive datasets, and information protected by consent requirements, intellectual property restrictions, or confidentiality agreements.
+• Passwords, authentication credentials, API keys, access tokens, and other secrets used to access institutional systems.
+Before deployment, the department should classify its data, define which sources may be indexed, and approve the hosting and processing environment. Controls should include encryption in transit and at rest, least-privilege and role-based access, retention limits, audit logging, and anonymization or de-identification where appropriate. Any external AI provider must be reviewed and formally approved before institutional data is shared with it. Public or low-sensitivity information may be used only in accordance with institutional policy.
+5. Expected Outcomes and Success Indicators
+The initiative is expected to reduce repetitive administrative effort, improve access to reliable academic information, strengthen departmental knowledge management, and support faculty members in preparing educational materials. Agentic workflows may also improve the consistency and traceability of routine request handling.
+Suggested success indicators: average response time to student inquiries; percentage of answers grounded in approved sources; reduction in repetitive manual tasks; user satisfaction among students and staff; and measured accuracy of responses on a tested set of departmental questions.
+Conclusion
+Generative AI and Agentic Systems can improve academic and administrative services when introduced as controlled support tools rather than replacements for institutional expertise or decision-making. A phased implementation, approved data sources, strong security and governance controls, continuous evaluation, and human oversight are essential to ensure that the solution is useful, reliable, and aligned with the university’s responsibilities.
